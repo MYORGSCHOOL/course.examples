@@ -1,6 +1,6 @@
 # hibernate-session
 * Для запуска модуля установить postgresql
-* Прописать в hibernate.cfg.xml путь до базы
+* Прописать в [hibernate.cfg.xml](src/main/resources/hibernate.cfg.xml) путь до базы
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>

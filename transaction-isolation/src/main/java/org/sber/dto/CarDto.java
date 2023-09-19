@@ -1,4 +1,4 @@
-package org.sber.session.dto;
+package org.sber.dto;
 
 import lombok.Data;
 
@@ -7,11 +7,6 @@ import lombok.Data;
  */
 @Data
 public class CarDto {
-
-    public CarDto(String model) {
-        this.model = model;
-    }
-
     /**
      * Идентификатор
      */

@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "org.example"
-version = "1.0-SNAPSHOT"
+version = "unspecified"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,6 @@ dependencies {
     compileOnly("org.projectlombok:lombok:1.18.28")
     annotationProcessor("org.projectlombok:lombok:1.18.28")
     implementation("ma.glasnost.orika:orika-core:1.5.4")
-
 }
 
 tasks.test {

@@ -1,4 +1,4 @@
-package org.sber.session.entity;
+package org.sber.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -16,10 +16,6 @@ import lombok.ToString;
 @Table(name = "Car")
 @Data
 public class Car {
-    public Car(String model) {
-        this.model = model;
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;

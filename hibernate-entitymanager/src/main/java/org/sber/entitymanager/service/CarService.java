@@ -1,6 +1,6 @@
-package org.sber.session.service;
+package org.sber.entitymanager.service;
 
-import org.sber.session.dto.CarDto;
+import org.sber.entitymanager.dto.CarDto;
 
 /**
  * Сервис по работе с машнами

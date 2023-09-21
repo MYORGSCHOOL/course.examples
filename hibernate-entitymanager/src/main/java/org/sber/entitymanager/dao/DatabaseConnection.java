@@ -1,10 +1,10 @@
-package org.sber.session.dao;
+package org.sber.entitymanager.dao;
 
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 public class DatabaseConnection {
-    private static EntityManagerFactory entityManagerFactory;
+    private static final EntityManagerFactory entityManagerFactory;
 
     static {
         try {

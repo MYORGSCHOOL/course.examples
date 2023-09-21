@@ -1,7 +1,6 @@
 package org.sber.session.service;
 
 import org.sber.session.dto.CarDto;
-import org.sber.session.entity.Car;
 
 import java.util.List;
 import java.util.Optional;

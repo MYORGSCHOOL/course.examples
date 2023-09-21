@@ -10,7 +10,11 @@
              version="2.1">
     <persistence-unit name="org.java.courses_h2">
 
-        <class>org.sber.session.entity.Car</class>
+        <class>org.sber.entitymanager.entity.Car</class>
+        <class>org.sber.entitymanager.entity.ContactInfo</class>
+        <class>org.sber.entitymanager.entity.Group</class>
+        <class>org.sber.entitymanager.entity.Student</class>
+        <class>org.sber.entitymanager.entity.Discipline</class>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
 
@@ -24,6 +28,7 @@
         </properties>
     </persistence-unit>
 </persistence>
+
 
 ```
 

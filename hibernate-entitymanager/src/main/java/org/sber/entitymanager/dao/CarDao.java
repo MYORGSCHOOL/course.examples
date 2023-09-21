@@ -1,12 +1,8 @@
-package org.sber.session.dao;
+package org.sber.entitymanager.dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.sber.session.entity.Car;
-
-import java.util.List;
+import org.sber.entitymanager.entity.Car;
 
 /**
  * DAO по работе с машинами через EntityManager

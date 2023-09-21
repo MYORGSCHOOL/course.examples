@@ -1,23 +1,25 @@
-package org.sber.session.entity;
+package org.sber.entitymanager.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@NoArgsConstructor
+/**
+ * ДТО Группы
+ */
+@Builder
 @Data
-public class User {
+@NoArgsConstructor
+@AllArgsConstructor
+public class GroupDto {
     /**
      * Идентификатор
      */
-    private int id;
+    private Long id;
     /**
      * Имя
      */
     private String name;
-    /**
-     * Фамилия
-     */
-    private String surName;
+
 }

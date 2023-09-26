@@ -5,10 +5,9 @@
 См Readme.md у модулей
 ```
 * [simplesql](simplesql/README.md)
-
 * [hibernate-session](hibernate-session/README.md)
-
 * [hibernate-entitymanager](hibernate-entitymanager/README.md)
-
 * [transaction-isolation](transaction-isolation/README.md)
+* [hibernate-locking](hibernate-locking/README.md)
+* [liquibase](liquibase/README.md)
 

@@ -12,4 +12,5 @@
 * [liquibase](liquibase/README.md)
 * [springframework](springframework/README.md)
 * [webapp](webapp/README.md)
+* [spring-mvc](spring-mvc/README.md)
 

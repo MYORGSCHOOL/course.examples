@@ -14,3 +14,5 @@
 * [webapp](webapp/README.md)
 * [spring-mvc](spring-mvc/README.md)
 * [spring-data](spring-data/README.md)
+* [spring-transaction](spring-transaction/README.md)
+* [spring-kafka](spring-kafka/README.md)

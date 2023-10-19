@@ -18,3 +18,4 @@
 * [spring-kafka](spring-kafka/README.md)
 * [spring-boot](spring-boot/README.md)
 * [spring-aop](spring-aop/README.md)
+* [spring-extensionpoints](spring-extensionpoints/README.md)

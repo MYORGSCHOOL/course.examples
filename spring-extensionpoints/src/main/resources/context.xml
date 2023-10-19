@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id="redColor" scope="prototype" class="java.awt.Color">-->
+<!--        <constructor-arg name="r" value="255" />-->
+<!--        <constructor-arg name="g" value="0" />-->
+<!--        <constructor-arg name="b" value="0" />-->
+<!--    </bean>-->
+
+<!--    <bean id="green" scope="prototype" class="java.awt.Color">-->
+<!--        <constructor-arg name="r" value="0" />-->
+<!--        <constructor-arg name="g" value="255" />-->
+<!--        <constructor-arg name="b" value="0" />-->
+<!--    </bean>-->
+
+    <bean id="colorFactory" class="org.example.ColorFactory"></bean>
+
+    <bean id="instantiationTracingBeanPostProcessor" class="org.example.InstantiationTracingBeanPostProcessor"></bean>
+
+</beans>
